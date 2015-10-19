@@ -16,3 +16,6 @@ POW! You're done.
 
 ##Further Customization
 Hard code your token and key into the code and you can use IAM to control who is able to send push notifications via an API Gateway. 
+
+##Further Reading
+http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html#getting-started-new-post
