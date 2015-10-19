@@ -1,4 +1,5 @@
 # lambda-pushover
+##TL;DR
 Use AWS Lambda to send pushover notifications. 
 Post JSON data like this:
 ```JSON
@@ -8,3 +9,7 @@ Post JSON data like this:
   "message": "your message to send"
 }
 ```
+##Usage
+On OSX clone the repo then `npm i --save` and zip up the contents of the folder. 
+Upload that to lambda and create a test event with the JSON. 
+POW! You're done. 
