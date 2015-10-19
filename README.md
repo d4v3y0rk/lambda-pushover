@@ -1,7 +1,7 @@
 # lambda-pushover
 ##TL;DR
 Use AWS Lambda to send pushover notifications. 
-Post JSON data like this:
+The event JSON looks like this:
 ```JSON
 {
   "token": "your app token from pushover",
