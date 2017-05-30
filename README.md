@@ -1,5 +1,5 @@
 # lambda-pushover
-##TL;DR
+## TL;DR
 Use AWS Lambda to send pushover notifications. 
 The event JSON looks like this:
 ```JSON
@@ -9,13 +9,13 @@ The event JSON looks like this:
   "message": "your message to send"
 }
 ```
-##Usage
+## Usage
 On OSX clone the repo then `npm i --save` and zip up the contents of the folder. 
 Upload that to lambda and create a test event with the JSON. 
 POW! You're done. 
 
-##Further Customization
+## Further Customization
 Hard code your token and key into the code and you can use IAM to control who is able to send push notifications via an API Gateway. 
 
-##Further Reading
+## Further Reading
 http://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html#getting-started-new-post
